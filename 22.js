@@ -8,7 +8,7 @@ const getDays = (year, month) => {
     return new Date(year, month, 0).getDate();
 };
 
-console.log(getDays(2024, 2))
+// console.log(getDays(2024, 2))
 readline.question('Enter the year: ', (year)=> {
     readline.question('Enter the month number: ', (month)=> {
         console.log(`Number of days: ${getDays(year, month)}`);
